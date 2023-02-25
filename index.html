@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6893c05752.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="photos/logo1.png" class="logo" alt="">
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
+               </ul>
+               <i class="fa-sharp fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Quality Assurance Engineer</p>
+                <h1>Hello I'm Georgi<br> <span>Todorov</span> from Bulgaria</h1>
+            </div>
+        </div>
+    </div>
+    <!--About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photos/Profile pic.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores debitis quia soluta 
+                        cumque voluptas dicta ipsam perferendis fugiat explicabo. Odit sint 
+                        laboriosam itaque cum, accusamus veniam perspiciatis sit? Repellendus, fugit?</p>
+                        
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                    </div>  
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Manual<br><span>QA</span></li>
+                            <li>Agile<br><span>Scrum</span></li>
+                            <li>Kanban<br><span>Lover</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>2016<br><span>Highschool Projects</span></li>
+                            <li>2020<br><span>Social Media Marketing</span></li>
+                            <li>2022<br><span>Self Taught Path</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li>Big Fan<br><span>of movie nights</span></li>
+                            <li>In Free Time<br><span>chill out with friends</span></li>
+                            <li>Main Hobby<br><span>fishing in the sea</span></li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!--About-->
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-regular fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi eius, dolorum pariatur aliquid voluptatum dolor adipisci optio amet quo, corporis 
+                        nobis voluptatibus accusamus nisi aperiam quae, corrupti earum fugit magni.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-searchengin"></i>
+                    <h2>SEO Research</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi eius, dolorum pariatur aliquid voluptatum dolor adipisci optio amet quo, corporis 
+                        nobis voluptatibus accusamus nisi aperiam quae, corrupti earum fugit magni.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="photos/paris-img.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Example One</h3>
+                        <p>
+                            explanation text here
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photos/paris-img.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Example Two</h3>
+                        <p>
+                            explanation text here
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photos/paris-img.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Example Three</h3>
+                        <p>
+                            explanation text here
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+        <!--Contact-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p>
+                            <i class="fa-solid fa-paper-plane"></i>
+                            georgiit98@gmail.com
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-mobile"></i>
+                            0899110173
+                        </p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/G0319/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/georgi0319/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.twitter.com/GeorgiT0319/"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/georgi-todorov-4466a4255/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="#" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2" >Sent</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &#169; Georgi T.</p>
+            </div>
+        </div>
+<!-------------------------------------JS--------------------------------------------->
+    <script>
+        let tabLinks = document.getElementsByClassName("tab-links");
+        let tabContents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabName){
+            
+            for(tabLink of tabLinks){
+                tabLink.classList.remove("active-link");
+            }
+            for(tabContent of tabContents){
+                tabContent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+
+        }
+
+    </script>
+
+    <script>
+        let sideBar = document.getElementById("sideMenu");
+
+        function openMenu(){
+            sideBar.style.right = "0";
+        }
+
+        function closeMenu(){
+            sideBar.style.right = "-200px";
+        }
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzPcGRAVRwngG3uzXTGizjIU4wvDV4BeWuyTWzRKqRrzfJNwUUA3xGo-BhxgS70j274iw/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ''
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
